@@ -9,6 +9,16 @@ import static org.junit.jupiter.api.Assertions.*;
 class AppTest {
     @Test void appHasAGreeting() {
         App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+        assertTrue(classUnderTest.getGreeting().contains("ourcraft"), "app should reference ourcraft");
+    }
+
+    @Test void droneBriefHasCoreVibeLines() {
+        App classUnderTest = new App();
+        String brief = classUnderTest.buildJokeDroneBrief(6);
+
+        assertAll(
+                () -> assertTrue(brief.contains("🚁 Joke PR Mission Brief")),
+                () -> assertTrue(brief.contains("Objective: make it work and be cool")),
+                () -> assertTrue(brief.contains("Status: absolutely vibing")));
     }
 }
