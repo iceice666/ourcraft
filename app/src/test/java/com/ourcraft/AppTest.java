@@ -7,12 +7,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    @Test void appHasAGreeting() {
+    @Test void shouldContainOurcraftInGreeting() {
         App classUnderTest = new App();
         assertTrue(classUnderTest.getGreeting().contains("ourcraft"), "app should reference ourcraft");
     }
 
-    @Test void droneBriefHasCoreVibeLines() {
+    @Test void shouldGenerateDroneBriefWithRequiredFields() {
         App classUnderTest = new App();
         String brief = classUnderTest.buildJokeDroneBrief(6);
 
