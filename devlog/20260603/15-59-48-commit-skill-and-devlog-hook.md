@@ -89,12 +89,12 @@ that wires both the new devlog gate and the existing test gate as
 
 ## Open questions / blockers
 
-- [ ] Justfile recipe to verify required environment (gradle availability,
+- [x] Justfile recipe to verify required environment (gradle availability,
   python3 for the hook parser) — follow-up requested by user, will land in
-  a separate commit.
+  a separate commit. → [16-01-49-justfile-env-check-recipe.md](16-01-49-justfile-env-check-recipe.md)
 
 ## Next session
 
-- [ ] Add the env-check Justfile recipe.
+- [x] Add the env-check Justfile recipe. → [16-01-49-justfile-env-check-recipe.md](16-01-49-justfile-env-check-recipe.md)
 - [ ] Consider whether `test:` should also require a devlog when adding a
   whole new test suite vs. tweaking existing tests.
