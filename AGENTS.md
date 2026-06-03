@@ -83,5 +83,6 @@ ourcraft/
    - **Required for**: `feat:`, `fix:`, `refactor:`, `docs:`, `build:` — the commit must add (or update) a file under `devlog/YYYYMMDD/hh-mm-ss-<slug>.md`. See `devlog/README.md` for the convention.
    - **Optional for**: `chore:` (and other trivial types like `style:`, `ci:`) — skip the devlog unless the change is worth recording.
    - The devlog entry lives in the same commit as the change it describes.
-7. **Do not modify `flake.nix` / `flake.lock` unless explicitly asked** — toolchain changes are intentional.
-8. **Ask before adding dependencies** — new Gradle dependencies need justification; prefer the Java standard library and well-known libraries (Guava, Jackson, JUnit 5).
+7. **Past devlog entries are immutable** — never edit a previously committed entry. The only allowed change is updating `## Open questions / blockers` and `## Next session` to mark items resolved (`- [x]`) with a link to the entry/PR/issue that addressed them. See `devlog/README.md` § Immutability. Use `devlog/tools/open-items.sh` to list outstanding items.
+8. **Do not modify `flake.nix` / `flake.lock` unless explicitly asked** — toolchain changes are intentional.
+9. **Ask before adding dependencies** — new Gradle dependencies need justification; prefer the Java standard library and well-known libraries (Guava, Jackson, JUnit 5).
