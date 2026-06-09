@@ -5,6 +5,7 @@
 ![[democoncept.png]]
 
 ## 角色固定
+>考慮到開發時間，目前角色為固定，如時間其實充裕，則玩家可以扮演建造者
 - **玩家**：永遠是破壞者
 - **NPC**：永遠是建造者
 
@@ -118,7 +119,8 @@ NPC 角色固定為建造者，行為簡單：
 #### main menu
 - start game
 - select character（Clawd or Openclaw）
-
+>如果開發時間充裕，則可選擇Clawd陣營
+![[67805bb6-be90-43d9-8170-e4d4238b7168.jpg]]
 #### game status
 - Current Round（第幾 round）
 - 剩餘攻擊時間（攻擊階段顯示）
