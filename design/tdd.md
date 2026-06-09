@@ -1,6 +1,6 @@
 # Technical Design Document — ourcraft
 
-基於 `gddv2.md`，描述如何用 JMonkeyEngine 3.9.0 + Zay-ES 1.6.0 實作遊戲。
+基於 `gdd.md`，描述如何用 JMonkeyEngine 3.9.0 + Zay-ES 1.6.0 實作遊戲。
 
 ---
 
