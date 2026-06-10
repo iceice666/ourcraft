@@ -31,7 +31,11 @@ working game.
 
 ---
 
-## M1 — Core game loop (headless)
+## M1 — Core game loop (headless) ✅ *done*
+
+**What exists:** `RoundComponent`, `PhaseComponent`, `GameResultComponent`,
+the M1 `BlockComponent` stub, `RoundSystem`, and `VictorySystem`, covered by
+`RoundSystemTest` and `VictorySystemTest`.
 
 **Why first:** Every other system depends on knowing what phase/round it's in.
 The victory/defeat conditions are simple boolean checks on this state — test them

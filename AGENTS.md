@@ -79,8 +79,8 @@ Full milestone breakdown: `design/milestones.md`. Critical path: M1 → M2 → M
 | Milestone | Description | Status |
 |-----------|-------------|--------|
 | M0 | Foundation — jME3 + Zay-ES skeleton, ModelViewState | ✅ done |
-| M1 | Core game loop — RoundSystem, VictorySystem (headless) | ⬜ next |
-| M2 | Blocks & destruction — BlockComponent, WeaponSystem, counter-matrix (headless) | ⬜ |
+| M1 | Core game loop — RoundSystem, VictorySystem (headless) | ✅ done |
+| M2 | Blocks & destruction — BlockComponent, WeaponSystem, counter-matrix (headless) | ⬜ next |
 | M3 | NPC builder — NpcBuilderSystem, per-round scripts (headless) | ⬜ |
 | M4 | First-person playable — AppState machine, PlayerControlState, raycast wiring | ⬜ |
 | M5 | Block special effects — BlockEffectSystem, EffectComponent | ⬜ |
