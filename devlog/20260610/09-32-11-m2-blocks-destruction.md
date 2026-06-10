@@ -80,4 +80,5 @@ Archived the completed OpenSpec change and synced both capabilities.
 
 ## Next session
 
-- [ ] Start M3: `NpcBuilderSystem` and per-round build scripts
+- [x] Start M3: `NpcBuilderSystem` and per-round build scripts
+  → [09-56-27-m3-npc-builder.md](09-56-27-m3-npc-builder.md)
